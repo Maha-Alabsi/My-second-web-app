@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>SHETECHS Assignment-1</title>
+        <!--import Normalize library-->
+        <link rel="stylesheet" href="css/Normalize.css">
+        <!--Bootstrap CSS-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <!-- Roboto Google Font-->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto&display=swap">
+        <!--Font Awesome-->
+        <link rel="stylesheet" href="css/all.css">
+        <!--External CSS file-->
+        <link rel="stylesheet" href="css/ass1.css">        
+    </head>
+    <body onload="document.form1.text1.focus()">
+      <div class="back-ground">
+        <div class="trans-background"></div>
+          <div class="row ">
+                <div class="col-lg-4 ">
+                    <h1>Coming Soon!</h1>
+                    <p class="text-left p1">We're working hard to finish the development of this site. Our target launch date is on the 23rd of December, 2020!</p>
+                    <p class="text-left p2"> Sign up for updates using the form</p> 
+                    
+                    <form class="btn-group " method="GET" id="form" action="#" name="form1">
+                        <input  type="text"  class="btn btn-default btn-lg" placeholder="Enter your email address..." name="text1" id="email">
+                        <button type="submit" class="btn btn-Notify btn-lg" onclick="validateEmail(document.form1.text1)">Notify Me</button>
+                    </form> 
+                    <div id="error"></div>  
+                </div>  
+                <div class="col-lg-8 ">
+                    <div class="header">
+                    <ul class="header-content">
+                        <li><a href="#" target="_blank">About</a></li>
+                        <li><a href="#" target="_blank" class="active">Service</a></li>
+                        <li><a href="#" target="_blank">Products</a></li>
+                        <li><a href="#" target="_blank">Contact</a></li>
+                    </ul>
+                    <!--Start Settings Box-->
+                    <div class="settings-box" >
+                        <div class="toggle-settings">
+                        <i class="fas fa-cog"></i>
+                     </div>
+                        <div class="settings-content">
+                            Testing Options
+                        </div>
+                    </div>
+                    <!--End Settings Box-->
+                     </div>                  
+                    <ul class="Social">
+                        <li><a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                    </ul> 
+                </div>    
+            </div>
+      </div> 
+
+     <script src="JavaScript/ass1.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+      <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    </body>
+</html>
